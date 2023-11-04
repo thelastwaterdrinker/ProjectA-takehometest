@@ -28,7 +28,7 @@ Enter a valid email address in the email field.
 
 Password Field:
 Password must contain:
-At least 8 characters
+At least 8 characters 
 1 or more lowercase letters
 1 or more uppercase letters
 1 or more decimal characters
