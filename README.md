@@ -1,7 +1,7 @@
-Description
+Description:
 This project contains a simple registration form built using React and Next.js. The form allows users to register with an email and password, performing client-side validation to ensure password criteria are met.
 
-Installation
+Installation:
 To run the project locally, follow these steps:
 
 Clone the repository:
@@ -20,7 +20,7 @@ Copy code
 npm run dev
 The project will be accessible at http://localhost:3000.
 
-Usage
+Usage:
 
 Email Field:
 Enter a valid email address in the email field.
@@ -28,10 +28,10 @@ Enter a valid email address in the email field.
 
 Password Field:
 Password must contain:
-At least 8 characters 
-1 or more lowercase letters
-1 or more uppercase letters
-1 or more decimal characters
+At least 8 characters, 
+1 or more lowercase letters,
+1 or more uppercase letters,
+1 or more decimal characters,
 1 or more special characters: !@#$%^&*(),.?":{}|<>
 
 Password Criteria:
