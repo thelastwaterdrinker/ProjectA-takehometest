@@ -1,34 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Description
+This project contains a simple registration form built using React and Next.js. The form allows users to register with an email and password, performing client-side validation to ensure password criteria are met.
 
-## Getting Started
+Installation
+To run the project locally, follow these steps:
 
-First, run the development server:
+Clone the repository:
 
-```bash
+bash
+Copy code
+git clone <repository-url>
+Install dependencies:
+
+Copy code
+npm install
+Start the development server:
+
+arduino
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+The project will be accessible at http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Usage
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Email Field:
+Enter a valid email address in the email field.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+Password Field:
+Password must contain:
+At least 8 characters
+1 or more lowercase letters
+1 or more uppercase letters
+1 or more decimal characters
+1 or more special characters: !@#$%^&*(),.?":{}|<>
 
-To learn more about Next.js, take a look at the following resources:
+Password Criteria:
+Password criteria are displayed below the password input field.
+Green checkmarks indicate that a criterion is met.
+Red crosses indicate that a criterion is not met.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Submit Button:
+The "Submit" button is disabled until all password criteria are met.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Error Handling:
+If the email field is empty, an error message will be displayed: "Email is required."
+If a user with the provided email already exists, an error message will be displayed: "User already exists."
 
-## Deploy on Vercel
+Form Submission:
+Upon successful form submission, the form will be reset, and the user will be redirected to the homepage (/).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Technologies Used:
+React: A JavaScript library for building user interfaces.
+Next.js: A React framework that enables server-side rendering, static site generation, and routing.
+React Icons: A library for easily adding popular icon sets to React projects.
+Tailwind CSS: Open source CSS framework.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Author
+Tugba Dogan Webb
