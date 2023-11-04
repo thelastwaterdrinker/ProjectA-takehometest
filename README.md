@@ -50,10 +50,12 @@ Form Submission:
 Upon successful form submission, the form will be reset, and the user will be redirected to the homepage (/).
 
 Technologies Used:
-React: A JavaScript library for building user interfaces.
+ReactJS: A JavaScript library for building user interfaces - Compared to other frontend frameworks, React code is easier to maintain and is flexible due to its modular structure. This flexibility, in turn, saves a huge amount of time and costs.
 Next.js: A React framework that enables server-side rendering, static site generation, and routing.
-React Icons: A library for easily adding popular icon sets to React projects.
-Tailwind CSS: Open source CSS framework.
+React Icons: A library for easily adding popular icon sets to React projects. 
+Tailwind CSS: Open source CSS framework. Reduces CSS file sizes for improved scalability and maintainability, whilst allowing detailed style customisability unlike Bootstrap.
+
+
 
 Author
 Tugba Dogan Webb
